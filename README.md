@@ -1,8 +1,4 @@
-[![Serverless Application Framework AWS Lambda API Gateway](./assets/serverless-framework.png)](http://serverless.com)
-
-[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
-
-Docker image containing NodeJS, Python3, Serverless Framework, AWS SAM and Yarn.
+# Docker image containing NodeJS, Python3, Serverless Framework, AWS SAM and Yarn.
 
 ## Usage
 
