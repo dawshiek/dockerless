@@ -1,0 +1,9 @@
+version: "2.1"
+services:
+  serverless:
+    image: cloudhut/dockerless:1.41.0
+    env_file: .env
+    volumes:
+      - ~/.aws:/root/.aws
+      - ~/.ssh:/root/.ssh
+      - .:/opt/app
