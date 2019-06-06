@@ -1,9 +1,9 @@
-DOCKERLESS_VERSION ?= 1.41.0
+DOCKERLESS_VERSION ?= 1.44.1
 IMAGE_NAME ?= cloudhut/dockerless:$(DOCKERLESS_VERSION)
 TAG = $(DOCKERLESS_VERSION)
 
 build:
-	docker build -t $(IMAGE_NAME) .
+	docker build -t $(IMAGE_NAME) -t $$DOCKER_ID_USER/dockerless:latest .
 
 pull:
 	docker pull $(IMAGE_NAME)
